@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>@LeHoaiGiang | Automation Engineer</title>
+
+<!-- Font & Icon -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #0f172a, #020617);
+  color: white;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 40px rgba(0,255,200,0.2);
+}
+
+#userName {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+#links {
+  width: 100%;
+}
+
+.link {
+  display: block;
+  background: rgba(255,255,255,0.06);
+  padding: 16px;
+  margin: 14px 0;
+  border-radius: 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.25s;
+}
+
+.link i {
+  margin-right: 10px;
+}
+
+.link:hover {
+  background: rgba(255,255,255,0.12);
+  transform: translateY(-2px);
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #64748b;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <!-- Avatar -->
+  <img src="avatar.jpg" class="avatar" alt="Le Hoai Giang">
+
+  <!-- Username -->
+  <div id="userName">Le Hoai Giang</div>
+
+  <!-- Links -->
+  <div id="links">
+    <a class="link" href="https://github.com/LeHoaiGiang/LEHOAIGIANG" target="_blank">
+      <i class="fab fa-github"></i>GitHub
+    </a>
+    <a class="link" href="https://www.facebook.com/LeHoaiGiangTDH" target="_blank">
+      <i class="fab fa-facebook"></i>Facebook
+    </a>
+    <a class="link" href="https://www.youtube.com/@lehoaigiangctu" target="_blank">
+      <i class="fab fa-youtube"></i>YouTube
+    </a>
+    <a class="link" href="https://www.tiktok.com/@gianglh.automation" target="_blank">
+      <i class="fab fa-tiktok"></i>TikTok
+    </a>
+    <!-- SĐT clickable -->
+    <a class="link" href="tel:+84336379944">
+      <i class="fas fa-phone"></i>Gọi: +84336379944
+    </a>
+    <!-- Zalo clickable -->
+    <a class="link" href="https://zalo.me/84336379944" target="_blank">
+      <i class="fas fa-comment"></i>Chat Zalo
+    </a>
+  </div>
+
+  <div class="footer">
+    Built with HTML & Vercel
+  </div>
+
+</div>
+</body>
+</html>
